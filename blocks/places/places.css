@@ -5,3 +5,21 @@
   margin-right: auto;
   margin-bottom: 0;
 }
+
+
+@media screen and (max-width: 1280px){
+  .places {
+    width: 928px;
+    margin-top: 12px;
+
+  }
+}
+
+
+@media screen and (max-width: 1024px){
+  .places {
+    width: 720px;
+    margin-top: 15px;
+
+  }
+}

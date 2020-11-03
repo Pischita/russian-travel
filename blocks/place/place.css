@@ -3,3 +3,9 @@
   flex-direction: column;
   padding-top: 80px;
 }
+
+@media screen and (max-width: 1024px){
+  .place {
+    padding-top: 73px;
+  }
+}

@@ -10,3 +10,12 @@
   font-weight: 900;
   text-align: center;
 }
+
+
+@media screen and (max-width: 768px){
+  .lead__title {
+    line-height: 44px;
+    font-size: 40px;
+    width: 288px;
+  }
+}

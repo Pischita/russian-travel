@@ -3,3 +3,17 @@
   align-items: flex-end;
   gap: 40px;
 }
+
+@media screen and (max-width: 1280px){
+  .place__head {
+    gap: 12px;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .place__head {
+    gap: 28px;
+  }
+}
+
+
