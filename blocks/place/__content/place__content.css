@@ -4,15 +4,22 @@
   margin-top: 48px;
 }
 
-
-@media screen and (max-width: 1280px){
+@media screen and (max-width: 1280px) {
   .place__content {
     gap: 32px;
   }
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
   .place__content {
     gap: 28px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__content {
+    margin-top: 32px;
+    flex-direction: column;
+    gap: 25px;
   }
 }
