@@ -15,7 +15,6 @@
   .lead__title {
     line-height: 44px;
     font-size: 40px;
-    margin-right: 16px;
-    margin-left: 16px;
+    width: 288px;
   }
 }
