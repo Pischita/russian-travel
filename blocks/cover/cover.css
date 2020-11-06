@@ -12,12 +12,6 @@
   background-position: center;
 
   display: flex;
-
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative; */
 }
 
 .cover::after{
@@ -28,33 +22,8 @@
   padding-top: calc(200 / 320 * 100%);
 }
 
-/* .cover::before {
-  content: '';
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  background: #2a2c2f;
-  opacity: 0.3;
-  cursor: pointer;
-}
 
-.cover:hover::before {
-  content: '';
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  background: #2a2c2f;
-  opacity: 0.8;
-  cursor: pointer;
-} */
-
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .cover {
     max-width: 1024px;
     min-height: 640px;
